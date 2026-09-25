@@ -1,6 +1,6 @@
-# 포슬 월드 (Posle World) 개발 노트
+# 어드벤처 테일 (Adventure Tale) 개발 노트
 
-Unity 6 기반 2D 쿼터뷰(아이소메트릭) RPG **포슬 월드** 의 작업별 개발 기록입니다.
+Unity 6 기반 2D 쿼터뷰(아이소메트릭) RPG **어드벤처 테일** 의 작업별 개발 기록입니다.
 작업마다 **무엇을 했는지 / 작업 후 스크린샷 / 개발하면서 만난 문제와 해결 방법** 을 정리합니다.
 
 - 작업 단위: 기능 하나 (노트 번호 = 작업 순서)
@@ -25,20 +25,21 @@ rpg-game-develop-note/
 | [04](04-skill-system.md) | 스킬 사용 방식 개편 — 기본공격 분리, 대상 지정/범위 스킬 | 2026-09-24 |
 | [05](05-level-exp-skillpoint.md) | 경험치 · 레벨 · 스킬포인트 | 2026-09-25 |
 | [06](06-skill-tree-skill-master.md) | 직업별 스킬 트리 · 스킬마스터 NPC | 2026-09-25 |
+| [07](07-quest-system.md) | 퀘스트 시스템 (수락 · 목록 · 진행 확인) | 2026-09-25 |
 
 ## 공통 개발 환경 · 원칙
 
 - Unity 6000.6.2f1 / URP 2D / Input System / C# 9, macOS (Apple Silicon)
 - **외부 이미지 에셋 없이 모든 그림을 코드로 생성** (캐릭터·월드·아이콘·UI)
 - 게임 규칙은 UnityEngine 을 쓰지 않는 **순수 C# Core 어셈블리** 에 두고(서버 이식 대비), Unity 쪽은 입력·연출만
-- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v5)
+- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v6)
 - 검증: Unity batchmode EditMode 테스트 (에디터가 열려 있으면 프로젝트 복제본에서), 그림은 dotnet 미리보기 도구 / 에디터 캡처 스크립트로 확인
 
 ## 개발 중 쓰는 도구
 
 | 도구 | 용도 |
 |---|---|
-| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (94개, 06 기준) |
+| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (108개, 07 기준) |
 | 프로젝트 복제본 (APFS `cp -c`) | 에디터를 켜 둔 채로 batchmode 테스트·캡처를 돌리는 사본 (용량 추가 없음, 캡처 전용 코드는 사본에만) |
 | dotnet 그림 미리보기 도구 | 캐릭터·월드·아이콘 그리기 코드를 Unity 없이 4초 만에 PNG 로 렌더 |
 | 에디터 캡처 스크립트 (임시) | batchmode 에서 GameSession 을 조립해 실제 HUD·월드 화면을 PNG 로 찍음 (게임 저장소에는 넣지 않음) |
