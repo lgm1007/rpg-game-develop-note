@@ -24,20 +24,22 @@ rpg-game-develop-note/
 | [03](03-monster-info-box.md) | 몬스터 전투 시 몬스터 정보 박스 | 2026-09-24 |
 | [04](04-skill-system.md) | 스킬 사용 방식 개편 — 기본공격 분리, 대상 지정/범위 스킬 | 2026-09-24 |
 | [05](05-level-exp-skillpoint.md) | 경험치 · 레벨 · 스킬포인트 | 2026-09-25 |
+| [06](06-skill-tree-skill-master.md) | 직업별 스킬 트리 · 스킬마스터 NPC | 2026-09-25 |
 
 ## 공통 개발 환경 · 원칙
 
 - Unity 6000.6.2f1 / URP 2D / Input System / C# 9, macOS (Apple Silicon)
 - **외부 이미지 에셋 없이 모든 그림을 코드로 생성** (캐릭터·월드·아이콘·UI)
 - 게임 규칙은 UnityEngine 을 쓰지 않는 **순수 C# Core 어셈블리** 에 두고(서버 이식 대비), Unity 쪽은 입력·연출만
-- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v4)
-- 검증: Unity batchmode EditMode 테스트 (에디터가 닫혀 있을 때만), 그림은 dotnet 미리보기 도구 / 에디터 캡처 스크립트로 확인
+- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v5)
+- 검증: Unity batchmode EditMode 테스트 (에디터가 열려 있으면 프로젝트 복제본에서), 그림은 dotnet 미리보기 도구 / 에디터 캡처 스크립트로 확인
 
 ## 개발 중 쓰는 도구
 
 | 도구 | 용도 |
 |---|---|
-| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (77개, 05 기준) |
+| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (94개, 06 기준) |
+| 프로젝트 복제본 (APFS `cp -c`) | 에디터를 켜 둔 채로 batchmode 테스트·캡처를 돌리는 사본 (용량 추가 없음, 캡처 전용 코드는 사본에만) |
 | dotnet 그림 미리보기 도구 | 캐릭터·월드·아이콘 그리기 코드를 Unity 없이 4초 만에 PNG 로 렌더 |
-| 에디터 캡처 스크립트 (임시) | batchmode 에서 GameSession 을 조립해 실제 HUD·월드 화면을 PNG 로 찍음 (확인 후 되돌림) |
-| 에디터 시뮬레이션 스크립트 (임시) | 플레이어 로직을 프레임 단위로 돌려 NPC 대화·스킬 뒤 자동 공격 흐름 검증 |
+| 에디터 캡처 스크립트 (임시) | batchmode 에서 GameSession 을 조립해 실제 HUD·월드 화면을 PNG 로 찍음 (게임 저장소에는 넣지 않음) |
+| 에디터 시뮬레이션 스크립트 (임시) | 플레이어 로직을 프레임 단위로 돌려 NPC 대화·스킬 뒤 자동 공격·스킬 시전 흐름 검증 |
