@@ -34,6 +34,7 @@ rpg-game-develop-note/
 | [13](13-unlimited-bag.md) | 인벤토리(가방) 칸 무제한 · 스크롤 목록 | 2026-09-26 |
 | [14](14-shop-sell.md) | 상점 팔기 (팔기 탭 · 파는 값 · 한 번 더 묻기) | 2026-09-26 |
 | [15](15-cave-mountain-second-advancement.md) | 지역 5·6 (바위 동굴 · 산악) + 2차 전직 시험 | 2026-09-26 |
+| [16](16-ice-abyss-skill-tree-mp.md) | 지역 7·8 (얼음 · 심연) + 스킬 트리 개편 · MP + 몬스터 배치 | 2026-09-26 |
 
 ## 공통 개발 환경 · 원칙
 
@@ -47,7 +48,7 @@ rpg-game-develop-note/
 
 | 도구 | 용도 |
 |---|---|
-| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (171개, 15 기준) |
+| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (188개, 16 기준) |
 | 프로젝트 복제본 (APFS `cp -c`) | 에디터를 켜 둔 채로 batchmode 테스트·캡처를 돌리는 사본 (용량 추가 없음, 캡처 전용 코드는 사본에만) |
 | dotnet 그림 미리보기 도구 | 캐릭터·몬스터·월드·아이콘 그리기 코드를 Unity 없이 4초 만에 PNG 로 렌더 (지역별 몬스터 줄 세우기, 4방향·동작 시트) |
 | 밸런스 계산 콘솔 (임시) | 게임 규칙(Core) 코드를 dotnet 으로 돌려 레벨별 몬스터 능력치 · 몇 대에 잡히나 · 레벨업까지 사냥 수를 표로 뽑음 |
