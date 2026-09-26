@@ -38,20 +38,21 @@ rpg-game-develop-note/
 | [17](17-badlands-dragon-castle.md) | 지역 9·10 (황무지 협곡 · 드래곤 성) + 최고 레벨 400 | 2026-09-26 |
 | [18](18-monster-chase-mage-mp.md) | 몬스터 추적 개편 · 법사 HP/MP · 조준 중 이동 | 2026-09-26 |
 | [19](19-skill-cooldowns.md) | 스킬 재사용 대기시간 종류별 고정값 | 2026-09-27 |
+| [20](20-area-skill-hitbox.md) | 범위 스킬 범위·판정 개선 | 2026-09-27 |
 
 ## 공통 개발 환경 · 원칙
 
 - Unity 6000.6.2f1 / URP 2D / Input System / C# 9, macOS (Apple Silicon)
 - **외부 이미지 에셋 없이 모든 그림을 코드로 생성** (캐릭터·몬스터·월드·아이콘·UI). 글꼴만 라이선스가 확인된 나눔스퀘어라운드(SIL OFL)를 넣었다 (09)
 - 게임 규칙은 UnityEngine 을 쓰지 않는 **순수 C# Core 어셈블리** 에 두고(서버 이식 대비), Unity 쪽은 입력·연출만
-- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v6)
+- 세이브 스키마가 바뀌면 `SaveData.CurrentVersion` 을 올리고 마이그레이션 단계를 추가 (현재 v7)
 - 검증: Unity batchmode EditMode 테스트 (에디터가 열려 있으면 프로젝트 복제본에서), 그림은 dotnet 미리보기 도구 / 에디터 캡처 스크립트로 확인
 
 ## 개발 중 쓰는 도구
 
 | 도구 | 용도 |
 |---|---|
-| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (194개, 19 기준) |
+| Unity batchmode `-runTests` | 컴파일 + EditMode 테스트 (197개, 20 기준) |
 | 프로젝트 복제본 (APFS `cp -c`) | 에디터를 켜 둔 채로 batchmode 테스트·캡처를 돌리는 사본 (용량 추가 없음, 캡처 전용 코드는 사본에만) |
 | dotnet 그림 미리보기 도구 | 캐릭터·몬스터·월드·아이콘 그리기 코드를 Unity 없이 4초 만에 PNG 로 렌더 (지역별 몬스터 줄 세우기, 4방향·동작 시트) |
 | 밸런스 계산 콘솔 (임시) | 게임 규칙(Core) 코드를 dotnet 으로 돌려 레벨별 몬스터 능력치 · 몇 대에 잡히나 · 레벨업까지 사냥 수를 표로 뽑음 |
