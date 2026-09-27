@@ -97,10 +97,6 @@
 
 ![남성 기사 캐릭터의 네 방향과 걷기 자세](images/21/male-character-concept.png)
 
-### 전체 스타일·공격 모션 참고
-
-![여성 마법사와 남성 기사의 기본 자세, 공격 모션과 이펙트](images/21/character-style-overview.png)
-
 ### 여성 마법사 스프라이트 자료
 
 #### 완성 캐릭터 동작 시트
