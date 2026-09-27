@@ -109,7 +109,7 @@
 
 ![여성 마법사의 네 방향 및 동작 시트](images/21/source-sheets/adventure-tails-female-character-sheet1.png)
 
-#### 부위·무기·이펙트 시트
+#### 부위·무기 시트
 
 ![여성 마법사의 지팡이 모션](images/21/source-sheets/adventure-tails-female-character-sheet2.png)
 
@@ -117,11 +117,11 @@
 
 ![여성 캐릭터 머리카락 방향별 시트](images/21/source-sheets/adventure-tails-female-character-sheet4.png)
 
-![여성 마법사 모자와 로브 시트](images/21/source-sheets/adventure-tails-female-character-sheet5.png)
+![여성 마법사 로브 시트](images/21/source-sheets/adventure-tails-female-character-sheet5.png)
+
+![여성 마법사 모자 시트](images/21/source-sheets/adventure-tails-female-character-sheet5-1.png)
 
 ![여성 마법사 부츠 시트](images/21/source-sheets/adventure-tails-female-character-sheet6.png)
-
-![여성 마법 이펙트 시트](images/21/source-sheets/adventure-tails-female-character-sheet7.png)
 
 ### 남성 기사 스프라이트 자료
 
@@ -133,25 +133,25 @@
 
 ![남성 캐릭터 기본 몸과 동작](images/21/source-sheets/adventure-tails-male-character-sheet2.png)
 
-![남성 캐릭터 얼굴과 표정](images/21/source-sheets/adventure-tails-male-character-sheet3.png)
+![남성 캐릭터 헤어](images/21/source-sheets/adventure-tails-male-character-sheet3.png)
 
-![남성 기사 투구와 갑옷 시트](images/21/source-sheets/adventure-tails-male-character-sheet4.png)
+![남성 기사 갑옷 시트](images/21/source-sheets/adventure-tails-male-character-sheet4.png)
+
+![남성 기사 투구 시트](images/21/source-sheets/adventure-tails-male-character-sheet4-1.png)
 
 ![남성 기사 부츠 시트](images/21/source-sheets/adventure-tails-male-character-sheet5.png)
 
 ![남성 기사의 검 동작과 검 궤적](images/21/source-sheets/adventure-tails-male-character-sheet6.png)
 
-![남성 검 이펙트 시트](images/21/source-sheets/adventure-tails-male-character-sheet7.png)
-
 ### 추가 성별·직업 조합 스프라이트
 
 #### 여성 검사
 
-![여성 검사의 네 방향 동작과 검 공격 시트](images/21/source-sheets/female-swordswoman-character-sheet.png)
+![여성 검사의 네 방향 동작과 검 공격 시트](images/21/source-sheets/adventure-tails-female-character-sheet8.png)
 
 #### 남성 법사
 
-![남성 법사의 네 방향 동작과 마법 시전 시트](images/21/source-sheets/male-mage-character-sheet.png)
+![남성 법사의 네 방향 동작과 마법 시전 시트](images/21/source-sheets/adventure-tails-male-character-sheet8.png)
 
 ### 장비 에셋 시트
 
