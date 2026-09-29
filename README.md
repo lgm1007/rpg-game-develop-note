@@ -42,6 +42,7 @@ rpg-game-develop-note/
 | [21](21-character-style-redesign-plan.md) | 캐릭터 디자인·픽셀 아트 스타일 개편 기획 | 2026-09-27 |
 | [22](22-monster-style-redesign-plan.md) | 몬스터 디자인·스타일 개편 기획 | 2026-09-27 |
 | [23](23-item-rarity-crafting.md) | 아이템 등급·포션 종류·장비 제작 시스템 | 2026-09-27 |
+| [24](24-npc-elder-redesign.md) | NPC(촌장) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
 
 ## 공통 개발 환경 · 원칙
 
