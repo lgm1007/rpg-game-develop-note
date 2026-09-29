@@ -170,21 +170,36 @@
 
 현재 게임의 장비 슬롯인 머리·옷·신발·무기와 대체로 대응한다. 몸통 의상 시트 3·4와 발 장비 시트 5·6을 각각 어떤 슬롯·직업·등급으로 나눌지는 구현 전에 기준을 정한다. 장비 PNG도 게임 에셋으로 임포트한 것은 아니며, 원본 시트 분할과 캐릭터 프레임에 맞춘 정렬이 필요하다.
 
-![투구와 헬멧 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-1.png)
+![투구와 헬멧 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-1-1.png)
+![투구와 헬멧 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-1-2.png)
+![투구와 헬멧 외형 시트 3](images/21/source-sheets/equipment/adventure-tale-equipment-1-3.png)
+![투구와 헬멧 외형 시트 4](images/21/source-sheets/equipment/adventure-tale-equipment-1-4.png)
 
-![모자 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-2.png)
+![모자 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-2-1.png)
+![모자 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-2-2.png)
 
-![갑옷·상의형 몸통 의상 시트](images/21/source-sheets/equipment/adventure-tale-equipment-3.png)
+![갑옷·상의형 몸통 의상 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-3-1.png)
+![갑옷·상의형 몸통 의상 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-3-2.png)
+![갑옷·상의형 몸통 의상 시트 3](images/21/source-sheets/equipment/adventure-tale-equipment-3-3.png)
+![갑옷·상의형 몸통 의상 시트 4](images/21/source-sheets/equipment/adventure-tale-equipment-3-4.png)
 
-![로브·코트형 몸통 의상 시트](images/21/source-sheets/equipment/adventure-tale-equipment-4.png)
+![로브·코트형 몸통 의상 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-4-1.png)
+![로브·코트형 몸통 의상 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-4-2.png)
 
-![부츠 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-5.png)
+![부츠 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-5-1.png)
+![부츠 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-5-2.png)
 
-![신발 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-6.png)
+![신발 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-6-1.png)
+![신발 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-6-2.png)
 
-![검 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-7.png)
+![검 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-7-1.png)
+![검 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-7-2.png)
+![검 외형 시트 3](images/21/source-sheets/equipment/adventure-tale-equipment-7-3.png)
+![검 외형 시트 4](images/21/source-sheets/equipment/adventure-tale-equipment-7-4.png)
+![검 외형 시트 5](images/21/source-sheets/equipment/adventure-tale-equipment-7-5.png)
 
-![지팡이 외형 시트](images/21/source-sheets/equipment/adventure-tale-equipment-8.png)
+![지팡이 외형 시트 1](images/21/source-sheets/equipment/adventure-tale-equipment-8-1.png)
+![지팡이 외형 시트 2](images/21/source-sheets/equipment/adventure-tale-equipment-8-2.png)
 
 ### 남성 기사 스킬 이펙트
 
