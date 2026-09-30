@@ -44,6 +44,7 @@ rpg-game-develop-note/
 | [23](23-item-rarity-crafting.md) | 아이템 등급·포션 종류·장비 제작 시스템 | 2026-09-27 |
 | [24](24-npc-elder-redesign.md) | NPC(촌장) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
 | [25](25-npc-shopkeeper-redesign.md) | NPC(상점) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
+| [26](26-npc-guide-redesign.md) | NPC(안내원) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
 
 ## 공통 개발 환경 · 원칙
 
