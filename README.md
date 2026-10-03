@@ -47,8 +47,8 @@ rpg-game-develop-note/
 | [26](26-npc-guide-redesign.md) | NPC(안내원) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
 | [27](27-npc-skillmaster-redesign.md) | NPC(스킬마스터) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
 | [28](28-npc-storage-redesign.md) | NPC(창고지기) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
-| [29](29-npc-bossguard-redesign.md) | NPC(보스 필드 지기) 이미지·디자인 개편 기획 (지역 1~10) | 2026-10-03 |
 | [29](29-character-art-paper-doll.md) | 캐릭터 · 스킬 이펙트 PNG 적용 — 페이퍼돌 캐릭터 · 지역 장비 색 · 걷기 개선 | 2026-10-02 |
+| [30](30-npc-bossguard-redesign.md) | NPC(보스 필드 지기) 이미지·디자인 개편 기획 (지역 1~10) | 2026-10-03 |
 
 ## 공통 개발 환경 · 원칙
 

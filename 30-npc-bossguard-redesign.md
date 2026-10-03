@@ -1,4 +1,4 @@
-# 29. NPC(보스 필드 지기) 이미지·디자인 개편 기획
+# 30. NPC(보스 필드 지기) 이미지·디자인 개편 기획
 
 ## 진행 단계
 
@@ -15,16 +15,16 @@
 
 | 지역 | 이미지 | 복식·색 컨셉 |
 |---|---|---|
-| 1 · 작은 산골동네 | [region01-bossguard.webp](images/29/region01-bossguard.webp) | 갈색 머리 소년, 녹색 머리띠, 흰 털 조끼, 부적 달린 창 |
-| 2 · 사막 | [region02-bossguard.webp](images/29/region02-bossguard.webp) | 갈색 피부 소녀, 흰색·청록 터번과 스카프, 금 장식, 창 |
-| 3 · 해변가 | [region03-bossguard.webp](images/29/region03-bossguard.webp) | 파란 머리띠 소년, 조개 장식, 닻 장식, 갈고리 창 |
-| 4 · 바닷속 | [region04-bossguard.webp](images/29/region04-bossguard.webp) | 청록 머리 소녀(인어풍), 산호·조개·진주 장식, 산호 삼지창 |
-| 5 · 바위 동굴 | [region05-bossguard.webp](images/29/region05-bossguard.webp) | 보라 수정 머리띠 소년, 털 조끼, 수정 곡괭이, 랜턴 |
-| 6 · 산악 | [region06-bossguard.webp](images/29/region06-bossguard.webp) | 검은 머리 소녀, 녹색·붉은색 동양풍 복식, 부적 달린 창 |
-| 7 · 얼음 | [region07-bossguard.webp](images/29/region07-bossguard.webp) | 금발 소년, 붉은 망토와 스카프(눈꽃), 사탕 지팡이와 랜턴 |
-| 8 · 깊은 바다 심연 | [region08-bossguard.webp](images/29/region08-bossguard.webp) | 짙은 남색 머리 소녀, 조개 날개 머리 장식, 발광 랜턴 지팡이 |
-| 9 · 황무지 협곡 | [region09-bossguard.webp](images/29/region09-bossguard.webp) | 붉은 머리 소년, 고글, 붉은 스카프, 녹슨 대형 창 |
-| 10 · 드래곤 성 | [region10-bossguard.webp](images/29/region10-bossguard.webp) | 검은 머리 소녀, 검붉은·금색 용 문양 갑옷과 망토, 용 깃발 창 |
+| 1 · 작은 산골동네 | [region01-bossguard.webp](images/30/region01-bossguard.webp) | 갈색 머리 소년, 녹색 머리띠, 흰 털 조끼, 부적 달린 창 |
+| 2 · 사막 | [region02-bossguard.webp](images/30/region02-bossguard.webp) | 갈색 피부 소녀, 흰색·청록 터번과 스카프, 금 장식, 창 |
+| 3 · 해변가 | [region03-bossguard.webp](images/30/region03-bossguard.webp) | 파란 머리띠 소년, 조개 장식, 닻 장식, 갈고리 창 |
+| 4 · 바닷속 | [region04-bossguard.webp](images/30/region04-bossguard.webp) | 청록 머리 소녀(인어풍), 산호·조개·진주 장식, 산호 삼지창 |
+| 5 · 바위 동굴 | [region05-bossguard.webp](images/30/region05-bossguard.webp) | 보라 수정 머리띠 소년, 털 조끼, 수정 곡괭이, 랜턴 |
+| 6 · 산악 | [region06-bossguard.webp](images/30/region06-bossguard.webp) | 검은 머리 소녀, 녹색·붉은색 동양풍 복식, 부적 달린 창 |
+| 7 · 얼음 | [region07-bossguard.webp](images/30/region07-bossguard.webp) | 금발 소년, 붉은 망토와 스카프(눈꽃), 사탕 지팡이와 랜턴 |
+| 8 · 깊은 바다 심연 | [region08-bossguard.webp](images/30/region08-bossguard.webp) | 짙은 남색 머리 소녀, 조개 날개 머리 장식, 발광 랜턴 지팡이 |
+| 9 · 황무지 협곡 | [region09-bossguard.webp](images/30/region09-bossguard.webp) | 붉은 머리 소년, 고글, 붉은 스카프, 녹슨 대형 창 |
+| 10 · 드래곤 성 | [region10-bossguard.webp](images/30/region10-bossguard.webp) | 검은 머리 소녀, 검붉은·금색 용 문양 갑옷과 망토, 용 깃발 창 |
 
 ## 공통 디자인 방향
 
