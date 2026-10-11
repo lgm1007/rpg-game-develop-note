@@ -42,13 +42,13 @@ rpg-game-develop-note/
 | [21](21-character-style-redesign-plan.md) | 캐릭터 디자인·픽셀 아트 스타일 개편 기획 | 2026-09-27 |
 | [22](22-monster-style-redesign-plan.md) | 몬스터 디자인·스타일 개편 기획 | 2026-09-27 |
 | [23](23-item-rarity-crafting.md) | 아이템 등급·포션 종류·장비 제작 시스템 | 2026-09-27 |
-| [24](24-npc-elder-redesign.md) | NPC(촌장) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
-| [25](25-npc-shopkeeper-redesign.md) | NPC(상점) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
-| [26](26-npc-guide-redesign.md) | NPC(안내원) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
+| [24](24-npc-elder-redesign.md) | NPC(촌장) 이미지·디자인 개편 기획 (지역 1~11) | 2026-09-30 |
+| [25](25-npc-shopkeeper-redesign.md) | NPC(상점) 이미지·디자인 개편 기획 (지역 1~11) | 2026-09-30 |
+| [26](26-npc-guide-redesign.md) | NPC(안내원) 이미지·디자인 개편 기획 (지역 1~11) | 2026-09-30 |
 | [27](27-npc-skillmaster-redesign.md) | NPC(스킬마스터) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
-| [28](28-npc-storage-redesign.md) | NPC(창고지기) 이미지·디자인 개편 기획 (지역 1~10) | 2026-09-30 |
+| [28](28-npc-storage-redesign.md) | NPC(창고지기) 이미지·디자인 개편 기획 (지역 1~11) | 2026-09-30 |
 | [29](29-character-art-paper-doll.md) | 캐릭터 · 스킬 이펙트 PNG 적용 — 페이퍼돌 캐릭터 · 지역 장비 색 · 걷기 개선 | 2026-10-02 |
-| [30](30-npc-bossguard-redesign.md) | NPC(보스 필드 지기) 이미지·디자인 개편 기획 (지역 1~10) | 2026-10-03 |
+| [30](30-npc-bossguard-redesign.md) | NPC(보스 필드 지기) 이미지·디자인 개편 기획 (지역 1~11) | 2026-10-03 |
 | [31](31-hide-hat.md) | 장비창 모자 숨기기 | 2026-10-03 |
 | [32](32-npc-sheets.md) | NPC 60명 PNG 시트 적용 — 마을 NPC 5역할 · 보스 필드 지기 | 2026-10-03 |
 | [33](33-hair-color.md) | 캐릭터 만들기 머리색 선택 — 기본 + 7색 | 2026-10-09 |
