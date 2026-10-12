@@ -63,7 +63,6 @@ rpg-game-develop-note/
 | [42](42-auto-learn-skills.md) | 스킬마스터 NPC 제거 — 스킬은 레벨업 · 전직 때 저절로 | 2026-10-11 |
 | [43](43-equipment-enhancement.md) | 장비 강화 — 강화석 4종 + 골드, 최대 +20 | 2026-10-11 |
 | [44](44-region-gear-levels.md) | 지역별 장비 착용 레벨 통일 (지역 1~11) | 2026-10-11 |
-| [45](45-dialogue-scroll-info-width.md) | 버그 수정 — 긴 대사 스크롤 · 몬스터 정보 칸 폭 | 2026-10-12 |
 
 ## 공통 개발 환경 · 원칙
 
