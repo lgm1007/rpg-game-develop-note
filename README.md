@@ -65,6 +65,7 @@ rpg-game-develop-note/
 | [44](44-region-gear-levels.md) | 지역별 장비 착용 레벨 통일 (지역 1~11) | 2026-10-11 |
 | [45](45-dialogue-scroll-info-width.md) | 버그 수정 — 긴 대사 스크롤 · 몬스터 정보 칸 폭 | 2026-10-12 |
 | [46](46-craft-materials-by-rarity.md) | 장비 제작 재료를 등급마다 다르게 — 새 재료 99종 | 2026-10-12 |
+| [47](47-boss-entry-materials.md) | 보스 필드 입장 재료 — 뒤 지역일수록 종류 · 개수 증가, 앞 지역 전리품 | 2026-10-13 |
 
 ## 공통 개발 환경 · 원칙
 
